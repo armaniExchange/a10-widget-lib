@@ -50,6 +50,7 @@
     "eslint-loader": "^1.6.3",
     "eslint-plugin-react": "^6.10.0",
     "extract-text-webpack-plugin": "^2.0.0-rc.3",
+    "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "transform-runtime": "^0.0.0",
     "webpack": "^2.2.1"

@@ -75,23 +75,21 @@ module.exports = {
     }),
 
     new webpack.NoEmitOnErrorsPlugin(),
-
     new webpack.LoaderOptionsPlugin({
       minimize: false,
       debug: true
     }),
     new ExtractTextPlugin({ filename: 'style.css',  allChunks: true }),
-    // new webpack.optimize.UglifyJsPlugin({
-    //   compress: {
-    //     warnings: false
-    //   },
-    //   output: {
-    //     comments: false
-    //   },
-    //   sourceMap: false
-    // })
-
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      },
+      output: {
+        comments: false
+      },
+      sourceMap: false
+    })
   ],
-  devtool:'source-map'
+  // devtool:'source-map'
 };
 
