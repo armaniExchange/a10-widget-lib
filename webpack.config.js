@@ -9,7 +9,7 @@ module.exports = {
 
   output: {
     path: __dirname + '/dist',
-    filename: 'main.js',
+    filename: 'index.js',
     umdNamedDefine: true,
     library: 'a10-widget-lib',
     libraryTarget: 'umd'

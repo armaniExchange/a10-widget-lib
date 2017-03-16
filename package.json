@@ -2,7 +2,7 @@
   "name": "a10-widget-lib",
   "version": "0.0.1",
   "description": "A10 Widgets With A10 Business",
-  "main": "./dist/main.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "better-npm-run build",
     "clean": "rimraf dist lib",
